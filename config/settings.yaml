@@ -1,0 +1,20 @@
+app:
+  title: "Agentic Stock Picker"
+  cache_dir: "data/cache"
+  default_universe: ["AAPL","MSFT","GOOGL","AMZN","META","TSLA","NVDA"]
+agent:
+  model: "gpt-4o-mini"      # change if you use another provider
+  temperature: 0.2
+  allow_tools: true
+scoring:
+  factors: ["momentum_126d","value_pe","quality_roa","volatility_30d"]
+  weights: [0.35, 0.25, 0.25, 0.15]
+backtest:
+  rebalance_days: 21
+  n_positions: 5
+  cash_pct: 0.0
+data:
+  prices: "yfinance"      # yfinance | alpha | twelvedata
+  fundamentals: "fmp"     # fmp | yfinance
+  filings: "sec_edgar"    # sec_edgar
+  macro: "fred"           # fred

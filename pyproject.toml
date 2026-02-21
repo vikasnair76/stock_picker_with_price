@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stockpicker-agent"
+version = "0.1.0"
+description = "Agentic AI stock picker (Streamlit)"
+requires-python = ">=3.10"
+
+# No runtime deps needed for packaging; you already install via requirements.txt
+
+[tool.setuptools.packages.find]
+include = ["agent*"]
