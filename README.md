@@ -25,7 +25,7 @@ NSE/US friendly: supports tickers like TCS.NS, INFY.NS, AAPL, MSFT
 
 No hard-coding: user enters any tickers, UI enforces their choices
 
-LLM backends: Gemini (Google AI Studio) or OpenAI, with robust fallbacks
+LLM backends: Gemini (Google AI Studio) or OpenAI, with robust fallbacks   
 
 Clear disclaimers and reproducible outputs (CSV download, metric cards)
 
