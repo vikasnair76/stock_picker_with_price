@@ -3,7 +3,7 @@
 Research assistant + factor screener + chat for stocks, built with Streamlit.
 It combines a rules-based screener (momentum/value/quality), quick back-of-the-envelope metrics, and an optional LLM chat (“Agent Chat”) for educational Q&A. Not financial advice.
 
-Features
+**Features**
 
 Screener: rank arbitrary tickers by:
 
